@@ -3,9 +3,9 @@ import json
 import csv
 from operator import itemgetter
 import re
-from tools import tools
+from tools import tool
 
-data = tools.open_json('dialognodes.json')
+data = tool.open_json('dialognodes.json')
 list_json=data['dialog_nodes']
 
 
