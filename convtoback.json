@@ -1,0 +1,179 @@
+{
+  "intents": [],
+  "entities": [
+    {
+      "entity": "fecha_numerica",
+      "location": [
+        0,
+        8
+      ],
+      "groups": [
+        {
+          "group": "group_0",
+          "location": [
+            0,
+            8
+          ]
+        }
+      ],
+      "value": "sin_separadores",
+      "confidence": 1
+    },
+    {
+      "entity": "rut",
+      "location": [
+        0,
+        8
+      ],
+      "groups": [
+        {
+          "group": "group_0",
+          "location": [
+            0,
+            8
+          ]
+        }
+      ],
+      "value": "rut",
+      "confidence": 1
+    },
+    {
+      "entity": "telefono",
+      "location": [
+        0,
+        9
+      ],
+      "groups": [
+        {
+          "group": "group_0",
+          "location": [
+            0,
+            9
+          ]
+        }
+      ],
+      "value": "fono",
+      "confidence": 1
+    },
+    {
+      "entity": "rut_telefono",
+      "location": [
+        0,
+        9
+      ],
+      "groups": [
+        {
+          "group": "group_0",
+          "location": [
+            0,
+            9
+          ]
+        }
+      ],
+      "value": "rut",
+      "confidence": 1
+    },
+    {
+      "entity": "rut",
+      "location": [
+        0,
+        9
+      ],
+      "groups": [
+        {
+          "group": "group_0",
+          "location": [
+            0,
+            9
+          ]
+        }
+      ],
+      "value": "rut",
+      "confidence": 1
+    },
+    {
+      "entity": "sys-number",
+      "location": [
+        0,
+        9
+      ],
+      "value": "257419304",
+      "confidence": 1,
+      "metadata": {
+        "numeric_value": 257419304
+      },
+      "interpretation": {
+        "numeric_value": 257419304,
+        "subtype": "integer"
+      }
+    }
+  ],
+  "input": {
+    "text": "257419304"
+  },
+  "output": {
+    "generic": [],
+    "text": [],
+    "nodes_visited": [
+      "node_8_1586904525156",
+      "node_3_1586654611943"
+    ],
+    "log_messages": []
+  },
+  "context": {
+    "conversation_id": "67000bbc-ac51-44c4-a71d-fd000b992158",
+    "system": {
+      "initialized": true,
+      "dialog_stack": [
+        {
+          "dialog_node": "node_3_1586654611943"
+        }
+      ],
+      "dialog_turn_counter": 2,
+      "dialog_request_counter": 2,
+      "timezone": "America/Santiago",
+      "_node_output_map": {
+        "node_2_1584128290628": {
+          "0": [
+            0
+          ]
+        }
+      }
+    },
+    "textop2": "",
+    "textop3": "",
+    "textop4": "",
+    "timezone": "America/Santiago",
+    "pregunta1": "No",
+    "pregunta2": "No",
+    "pregunta3": "No",
+    "pregunta2_1": "No",
+    "dni_paciente": "257419304",
+    "paso_por_triage": false,
+    "fecha_minima_vacunas": "2021-01-01",
+    "umbral_segunda_dosis": 21,
+    "caso_especial_sintoma": false,
+    "score": 1,
+    "vco_link": "https://talk.vasanthv.com/",
+    "derivacion": 1,
+    "pregunta_faq": "",
+    "registrar_faq": "",
+    "va_a_streaming": 1,
+    "metadata": {
+      "user_id": "67000bbc-ac51-44c4-a71d-fd000b992158"
+    },
+    "id_canal": 1,
+    "location": {
+      "comuna": "Ñuñoa",
+      "region": "Región Metropolitana",
+      "pais": "Chile"
+    },
+    "canal": "web",
+    "toAnswer": "buscar_paciente",
+    "rut_original": "257419304",
+    "dni_paciente_back": "257419304",
+    "dni_paciente_conv": "257419304"
+  },
+  "user_id": "67000bbc-ac51-44c4-a71d-fd000b992158"
+}
+
